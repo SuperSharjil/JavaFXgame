@@ -23,16 +23,6 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Pocket Tank");
 
-        /*
-        //Image
-        Image image = new Image("Background.jpg");
-        ImageView iv = new ImageView();
-        iv.setImage(image);
-
-        //Group
-        root.getChildren().add(iv);
-
-        */
         Scene scene = new Scene(root);
         scene.getStylesheets().addAll(this.getClass().getResource("style.css").toExternalForm());
         primaryStage.setScene(scene);
