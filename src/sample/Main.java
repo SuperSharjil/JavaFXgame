@@ -21,10 +21,13 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
+
         primaryStage.setTitle("Pocket Tank");
 
         Scene scene = new Scene(root);
-        scene.getStylesheets().addAll(this.getClass().getResource("style.css").toExternalForm());
+
+        //scene.getStylesheets().addAll(this.getClass().getResource("style.css").toExternalForm());
+        
         primaryStage.setScene(scene);
         primaryStage.show();
     }

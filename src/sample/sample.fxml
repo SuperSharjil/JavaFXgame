@@ -7,11 +7,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="491.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <Pane id="root" layoutY="42.0" prefHeight="360.0" prefWidth="491.0" stylesheets="@style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView pickOnBounds="true" preserveRatio="true">
+            <ImageView pickOnBounds="true" smooth="false">
                <image>
                   <Image url="@StartingBackground.jpg" />
                </image>
@@ -19,11 +19,11 @@
                   <Rectangle2D />
                </viewport>
             </ImageView>
-            <Pane prefHeight="360.0" prefWidth="491.0">
+            <Pane prefHeight="360.0" prefWidth="606.0">
                <children>
-                  <Button fx:id="PlayButton" layoutX="107.0" layoutY="202.0" mnemonicParsing="false" onAction="#PlayButtonClicked" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-background-color: #00FF00;" text=" " textAlignment="CENTER" />
-                  <Button fx:id="QuitButton" layoutX="343.0" layoutY="202.0" mnemonicParsing="false" onAction="#QuitButtonClicked" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 2000; -fx-background-color: #FF0000;" text=" " textAlignment="CENTER" />
-                  <Button fx:id="SettingsButton" layoutX="223.0" layoutY="265.0" mnemonicParsing="false" onAction="#SettingsButtonClicked" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 2000; -fx-background-color: #A9A9A9;" text=" " textAlignment="CENTER" />
+                  <Button fx:id="PlayButton" layoutX="126.0" layoutY="202.0" mnemonicParsing="false" onAction="#PlayButtonClicked" prefHeight="70.0" prefWidth="70.0" snapToPixel="false" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-background-color: #00FF00;" text=" " textAlignment="CENTER" />
+                  <Button fx:id="QuitButton" layoutX="427.0" layoutY="202.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-background-color: #FF0000;" text=" " textAlignment="CENTER" />
+                  <Button fx:id="SettingsButton" layoutX="268.0" layoutY="261.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="70.0" style="-fx-background-radius: 2000; -fx-border-color: #000000; -fx-border-radius: 2000; -fx-background-color: #A9A9A9;" text=" " textAlignment="CENTER" />
                </children></Pane>
          </children>
       </Pane>
