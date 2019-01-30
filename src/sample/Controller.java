@@ -9,6 +9,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -20,10 +21,13 @@ public class Controller {
     @FXML private Button QuitButton;
     @FXML private Button SettingsButton;
 
-    /*
-    public void ContinueButtonAction(ActionEvent event){
-        primaryStage.setScene(scene2);
-    }*/
+
+
+    @FXML
+    public void initialize() {
+
+    }
+
     public void PlayButtonClicked (ActionEvent event) throws IOException{
 
         System.out.println("Play");
