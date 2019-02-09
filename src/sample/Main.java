@@ -22,7 +22,7 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
 
-        primaryStage.setTitle("Pocket Tank");
+        primaryStage.setTitle("Pocket Tank - PLAYER1");
 
         Scene scene = new Scene(root);
 
